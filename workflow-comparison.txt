@@ -1,0 +1,18 @@
+Small Bug Fix:
+Create a short-lived bug-fix branch from main, make the fix, test it,
+raise a PR, get it reviewed, and merge it.
+
+Workflow:
+main -> bug-fix branch -> PR -> review -> merge
+
+Large Feature:
+Create a dedicated feature branch and develop the feature using multiple
+commits. Regularly sync with main, test the changes, then raise a PR
+for review and merge.
+
+Workflow:
+main -> feature branch -> development -> sync with main -> PR -> review -> merge
+
+For a small bug fix, the workflow is short because the change is small.
+For a large feature, a separate long-lived feature branch provides
+isolation and allows development and testing before merging.Git Workflow Comparison
